@@ -1,0 +1,55 @@
+
+.page-new h1{
+    color: rgb(181, 124, 43);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+}
+.page-new{
+ padding: 5px 40px;
+
+}
+.page-new .text{
+    background-color: rgb(181, 124, 43);
+    width: 80px;
+    height: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.control-col img{
+    width: 100%;
+    height: 100%;
+    
+}
+.pic{
+    padding: 41px 0px;
+}
+
+.date{
+    color: rgb(117, 111, 120);
+}
+.control{
+    padding: 41px 0px;
+}
+
+@media(max-width: 575px) {
+    .pic{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .pic1{
+        display: flex;
+        flex-direction: column;
+    }
+    .response{
+        font-size: 0.9rem;
+    }
+    .control-col img {
+        width: 100%;
+        height: 286px !important;
+    }
+    
+}
